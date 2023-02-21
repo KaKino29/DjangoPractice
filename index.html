@@ -1,0 +1,31 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./FrontEndStudy/" />
+  </head>
+  <body>
+    <h1>Web Calcucator</h1>
+    <hr />
+    <form>
+      <input type="text" name="number1" id="number1" width="200" size="5" />
+      <select name="operator" id="operator">
+        <option selected>+</option>
+        <option value="">-</option>
+        <option value="">*</option>
+        <option value="">/</option>
+      </select>
+      <input type="text" name="number2" id="number2" width="200" size="5" />
+      <input type="button" onclick="Calc()" value="Calculate" />
+      <input type="reset" value="reset" />
+    </form>
+    <hr />
+    <div id="result"></div>
+    <script src="./FrontEndStudy/"></script>
+  </body>
+</html>
